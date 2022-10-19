@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js" defer></script>
+    <title>Metric Unit Conversion</title>
+</head>
+<body>
+    <br>
+    <div class="mx-auto col-6 shadow rounded-bottom">
+        <header class="bg-violet text-center text-white p-2 d-flex flex-column align-items-center justify-center rounded-top">
+            <h1>Metric/imperial Unit Conversion</h1>
+            <input id="unit" type="number" class="border-white bg-violet text-white rounded" value="0" />
+            <button id="convert" type="button" class="bg-white rounded mt-1">Convert</button>
+        </header>
+        <div class="p-2 bg-white rounded-bottom">
+            <div class="bg-pure text-center shadow-sm rounded p-metric mb-1 text-dark-violet">
+                <h3>Length (Meter/Feet)</h3>
+                <p id="meter"></p>
+            </div>
+            <div class="bg-pure text-center shadow-sm rounded p-metric mb-1 text-dark-violet">
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id="volume"></p>
+            </div>
+            <div class="bg-pure text-center shadow-sm rounded p-metric mb-1 text-dark-violet">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="mass"></p>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
+</html>
